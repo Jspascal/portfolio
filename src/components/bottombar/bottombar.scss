@@ -1,0 +1,55 @@
+.bottombar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+}
+
+.nav-container {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(153,153,153,0.35);
+    padding: 1em;
+    border-top: 2px solid rgba(204, 207, 221, 0.945);
+    text-align: center;
+}
+
+.social-nav {
+    float: right;
+    display: inline;
+}
+
+.social-item {
+    padding: 0.5em;
+    display: inline;
+}
+.social-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.nav-items {
+    float: left;
+}
+
+.nav-items, ul,
+li {
+    list-style: none;
+    -webkit-padding-start: 0;
+    font-style: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #ED3E44;
+}
+
+//Navigation menu
+.nav-item {
+    padding: 1em;
+    display: inline;
+}
+
+.nav-item:hover {
+    border-top: 2px solid rgba(36, 71, 226, 0.945);
+}

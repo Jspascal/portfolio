@@ -1,8 +1,9 @@
+import Bottombar from "./components/bottombar/Bottombar";
 
 function App() {
   return (
     <div className="app">
-      Hello I'm just starting
+      <Bottombar />
     </div>
   );
 }
